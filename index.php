@@ -8,6 +8,12 @@
  * Text Domain: recipe
  */
 
+//this is a securuty feature that avoids being able to call it directly
+if (!function_exists('add_action')) {
+  echo "not allowed to acces directly";
+  exit();
+}
+
 
 // Setup
 
