@@ -13,7 +13,7 @@ if (!function_exists('add_action')) {
   echo "not allowed to acces directly";
   exit();
 }
-
+//TODO: 005 Creating a custom post type
 
 // Setup
 
